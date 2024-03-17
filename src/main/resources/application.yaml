@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: springAI
+
+  docker:
+    compose:
+      lifecycle-management: start_only
+
+  ai:
+    openai:
+      api-key: ${SPRING_AI_OPENAI_API_KEY}
